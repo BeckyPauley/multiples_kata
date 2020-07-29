@@ -5,12 +5,9 @@ def solution(number):
             numbers.append(i)
         if i % 5 == 0 and i not in numbers:
             numbers.append(i)
-    print(numbers)
     total = 0
     for n in numbers:
         total += n
-        print(f"adding {n}")
-    print(total)
     return total
 
 solution(15)
